@@ -8,15 +8,8 @@
 
 仿射变换矩阵：
 
-$$A=
- \left\{
- \begin{matrix}
-   a_{11} & a_{12} & a_{13} \\
-   a_{21} & a_{22} & a_{23} \\
-   0 & 0 & 1
-  \end{matrix}
-  \right\}
-$$
+<img src="http://latex.codecogs.com/gif.latex?A=\left\{\begin{matrix}a_{11} & a_{12} & a_{13} \\a_{21} & a_{22} & a_{23} \\0 & 0 & 1\end{matrix}\right\}" />
+
 
 ### 平移
 
@@ -26,9 +19,7 @@ $$
 
 用矩阵形式来表示该平移变换过程如下：
 
-$$
-\left\{\begin{matrix}\widetilde x \\\widetilde y \\1\end{matrix}\right\}=\left\{\begin{matrix}1 & 0 & t_{x} \\0 & 1 & t_{y} \\0 & 0 & 1\end{matrix}\right\}\left\{\begin{matrix}x \\y \\1\end{matrix}\right\}
-$$
+<img src="http://latex.codecogs.com/gif.latex?\left\{\begin{matrix}\widetilde x \\\widetilde y \\1\end{matrix}\right\}=\left\{\begin{matrix}1 & 0 & t_{x} \\0 & 1 & t_{y} \\0 & 0 & 1\end{matrix}\right\}\left\{\begin{matrix}x \\y \\1\end{matrix}\right\}" />
 
 其中，若$t_{x}>0$，则表示沿x轴正方向移动；若$t_{x}<0$，则表示沿x轴负方向移动。$t_{y}$与之类似。
 
